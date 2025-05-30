@@ -1,0 +1,40 @@
+/* Modern responsive design with dark feel */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #111;
+  color: #eee;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+header h1 {
+  color: #1fa2d6;
+  font-size: 2rem;
+}
+
+.intro {
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+}
